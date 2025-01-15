@@ -23,10 +23,12 @@
         padding: 40px 0;
         background: linear-gradient(180deg, #23075b, #270861, #410b8a, #830cdb, #a604fe, #aa17ff); 
         color: aliceblue;
+        font-family: Lucida Console;
       }
 
       a {
         color: aliceblue;
+        text-decoration: none;
       }
 
       .avatar-image {
@@ -47,11 +49,41 @@
 
       .link {
         background-color: rgba(220, 141, 31, 0.2);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
       }
 
       .main-container {
         max-width: 640px;
         margin: auto;
+      }
+
+      .links {
+        margin-bottom: 20px;
+      }
+
+      .name {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Georgia";
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      .social-icons {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .image {
+        text-align: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
       }
 
     </style>
@@ -77,31 +109,31 @@
       <div class="link">
         <img src="/images/home-diy.jpg" alt="a used paint roller sitting in a tray of white paint" class="thumbnail">
 
-        <a href="https://www.youtube.com/@HomeRenoVisionDIY" target="_blank">Learn about home DIYs</a>
+        <a class="link-text" href="https://www.youtube.com/@HomeRenoVisionDIY" target="_blank">Learn about home DIYs</a>
       </div> <!-- first-link -->
 
       <div class="link">
         <img src="/images/car.jpg" alt="burgundy sportscar lifted up to be fixed in a shop" class="thumbnail">
 
-        <a href="https://www.youtube.com/@chrisfix" target="_blank">Learn how to maintain your car</a>
+        <a class="link-text" href="https://www.youtube.com/@chrisfix" target="_blank">Learn how to maintain your car</a>
       </div> <!-- second-link -->
 
       <div class="link">
         <img src="/images/autumn.jpg" alt="a cup of hot chocolate next to a lit pumpkin and cinnamon sticks" class="thumbnail">
 
-        <a href="https://en.wikipedia.org/wiki/Autumn" target="_blank">My favorite season</a>
+        <a class="link-text" href="https://en.wikipedia.org/wiki/Autumn" target="_blank">My favorite season</a>
       </div> <!-- third-link -->
 
       <div class="link">
         <img src="/images/music.jpg" alt="music sheet" class="thumbnail">
 
-        <a href="https://open.spotify.com/artist/0Riv2KnFcLZA3JSVryRg4y" target="_blank">Music by my favorite composer, Hiroyuki Sawano</a>
+        <a class="link-text" href="https://open.spotify.com/artist/0Riv2KnFcLZA3JSVryRg4y" target="_blank">Music by my favorite composer, Hiroyuki Sawano</a>
       </div> <!-- fourth-link -->
 
       <div class="link">
         <img src="/images/jojo.jpeg" alt="the charaters from JoJo's Bizarre adventures part five" class="thumbnail">
 
-        <a href="https://jojo-portal.com/en/" target="_blank">My favorite anime</a>
+        <a class="link-text" href="https://jojo-portal.com/en/" target="_blank">My favorite anime</a>
       </div> <!-- fifth link -->
     </div> <!-- links -->
    </div> <!-- main-container -->
