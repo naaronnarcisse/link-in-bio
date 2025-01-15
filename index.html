@@ -14,13 +14,31 @@
       body {
         padding: 40px 0;
       }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        border: 1px solid black;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        border: 1px solid black;
+        object-fit: cover;
+      }
+
+
     </style>
   </head>
 
   <body>
    <div class="main-container">
     <div class="image">
-      <img src="/images/profile-picture.png" alt="Naaron Narcisse' headshot">
+      <img class="avatar-image" src="/images/profile-picture.png" alt="Naaron Narcisse' headshot">
     </div> <!-- image -->
 
     <div class="name">
@@ -35,31 +53,31 @@
     
     <div class="links">
       <div class="link">
-        <img src="/images/home-diy.jpg" alt="a used roller sitting in a tray of white paint">
+        <img src="/images/home-diy.jpg" alt="a used paint roller sitting in a tray of white paint" class="thumbnail">
 
         <a href="https://www.youtube.com/@HomeRenoVisionDIY" target="_blank">Learn about home DIYs</a>
       </div> <!-- first-link -->
 
       <div class="link">
-        <img src="/images/car.jpg" alt="burgundy sportscar lifted up to be fixed in a shop">
+        <img src="/images/car.jpg" alt="burgundy sportscar lifted up to be fixed in a shop" class="thumbnail">
 
         <a href="https://www.youtube.com/@chrisfix" target="_blank">Learn how to maintain your car</a>
       </div> <!-- second-link -->
 
       <div class="link">
-        <img src="/images/autumn.jpg" alt="a cup of hot chocolate next to a lit pumpkin and cinnamon sticks">
+        <img src="/images/autumn.jpg" alt="a cup of hot chocolate next to a lit pumpkin and cinnamon sticks" class="thumbnail">
 
         <a href="https://en.wikipedia.org/wiki/Autumn" target="_blank">My favorite season</a>
       </div> <!-- third-link -->
 
       <div class="link">
-        <img src="/images/music.jpg" alt="music sheet">
+        <img src="/images/music.jpg" alt="music sheet" class="thumbnail">
 
         <a href="https://open.spotify.com/artist/0Riv2KnFcLZA3JSVryRg4y" target="_blank">Music by my favorite composer, Hiroyuki Sawano</a>
       </div> <!-- fourth-link -->
 
       <div class="link">
-        <img src="/images/jojo.jpeg" alt="the charaters from JoJo's Bizarre adventures part five">
+        <img src="/images/jojo.jpeg" alt="the charaters from JoJo's Bizarre adventures part five" class="thumbnail">
 
         <a href="https://jojo-portal.com/en/" target="_blank">My favorite anime</a>
       </div> <!-- fifth link -->
